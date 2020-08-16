@@ -3,6 +3,7 @@
 body{
     padding-top: 92px;
     margin: 0;
+    overflow: hidden;
 }
 #header{
     width: calc(100vw - 80px);
@@ -41,6 +42,8 @@ ul{
     margin: 0px;
     height: 100vh;
     border-right: 2px solid black;
+    z-index: 90;
+    background-color: white;
 }
 .menu li{
     display: block;
