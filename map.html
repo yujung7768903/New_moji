@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="header">
-        <h1 class="logo"><a href="main_version_2.html">MOJI</a></h1>
+        <h1 class="logo"><a href="index.html">MOJI</a></h1>
         <ul class="user">
             <li>로그인</li>
             <li>마이페이지</li>
@@ -23,7 +23,19 @@
             <li class="category"><a href="">찜목록</a></li>
         </ul>
     </div>
-    <div id="content">
+    <div id="map">
+        <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=52ac81c3c37504dfecdbcade8b8cb3e8"></script>
+        <script>
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+		    mapOption = {
+		        center: new kakao.maps.LatLng(37.56820, 126.97774), // 지도의 중심좌표
+		        level: 5, // 지도의 확대 레벨
+		        mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+		    }; 
+
+		// 지도를 생성한다 
+		var map = new kakao.maps.Map(mapContainer, mapOption); 
+	    </script>
     </div>
 </body>
 </html>

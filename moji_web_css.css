@@ -20,6 +20,10 @@ body{
     display: inline-block;
     font-family: 'Baloo Tamma 2', cursive;
 }
+.logo a{
+    text-decoration: none;
+    color: black;
+}
 .user{
     float: right;
     margin: 0;
@@ -45,22 +49,29 @@ ul{
     z-index: 90;
     background-color: white;
 }
-.menu li{
-    display: block;
-    padding: 12px 40px;
-}
 .category:hover{
     background-color: #f0f0f0;
 }
 .category:active{
     background-color: gray;
 }
-a{
+.category a{
+    display: block;
+    width: 128px;
+    height: 45.6px;
     text-decoration: none;
     color: black;
+    text-align: center;
+    line-height: 45.6px;
+}
+#map{
+    width: calc(100vw - 130px);
+    height: calc(100vh - 92px);
 }
 #content {
     position: absolute;
     left: 130px;
+    top: 92px;
     width: calc(100vw - 130px);
+    height: calc(100vh - 92px);
 }
