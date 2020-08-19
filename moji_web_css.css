@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 body{
     padding-top: 92px;
     margin: 0;
@@ -12,9 +13,10 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #eeeeee;
     z-index: 100;
     background-color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 .logo{
     display: inline-block;
@@ -22,7 +24,7 @@ body{
 }
 .logo a{
     text-decoration: none;
-    color: black;
+    color: #0ab6a2;
 }
 .user{
     float: right;
@@ -45,9 +47,10 @@ ul{
     padding: 0;
     margin: 0px;
     height: 100vh;
-    border-right: 2px solid black;
+    border-right: 2px solid #eeeeee;
     z-index: 90;
     background-color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 .category:hover{
     background-color: #f0f0f0;
@@ -63,6 +66,7 @@ ul{
     color: black;
     text-align: center;
     line-height: 45.6px;
+    font-weight: bold;
 }
 #map{
     width: calc(100vw - 130px);

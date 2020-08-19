@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>다음 지도 API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+    <link rel="stylesheet" href="./moji_web_css.css">
 </head>
 <body>
-	<div id="map" style="width:750px;height:350px;"></div>
-
-	<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=52ac81c3c37504dfecdbcade8b8cb3e8"></script>
-	<script>
-		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-		    mapOption = {
-		        center: new kakao.maps.LatLng(37.56820, 126.97774), // 지도의 중심좌표
-		        level: 5, // 지도의 확대 레벨
-		        mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
-		    }; 
-
-		// 지도를 생성한다 
-		var map = new kakao.maps.Map(mapContainer, mapOption); 
-
-	</script>
+    <div id="header">
+        <h1 class="logo"><a href="index.html">MOJI</a></h1>
+        <ul class="user">
+            <li>로그인</li>
+            <li>마이페이지</li>
+            <li>장바구니</li>
+        </ul>
+    </div>
+    <div id="nav">
+        <ul class="menu">
+            <li class="category"><a href="map.html">지도</a></li>
+            <li class="category"><a href="shopping.html">쇼핑</a></li>
+            <li class="category"><a href="">출석</a></li>
+            <li class="category"><a href="">찜목록</a></li>
+        </ul>
+    </div>
+    <div id="">
+        
+    </div>
 </body>
 </html>
