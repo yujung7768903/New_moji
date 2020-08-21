@@ -39,7 +39,7 @@ body{
 ul{
     list-style: none;
 }
-.menu{
+.menu {
     position: fixed;
     left: 0px;
     top: 92px;
@@ -53,7 +53,7 @@ ul{
     font-family: 'Nanum Gothic Coding', monospace;
 }
 .category:hover{
-    background-color: #f0f0f0;
+    background-color: #0ab6a2;
 }
 .category:active{
     background-color: gray;
@@ -63,10 +63,14 @@ ul{
     width: 128px;
     height: 45.6px;
     text-decoration: none;
-    color: black;
     text-align: center;
     line-height: 45.6px;
     font-weight: bold;
+    color: black;
+}
+#selected a{
+    background-color: #eeeeee;
+    color: #0ab6a2;
 }
 #map{
     width: calc(100vw - 130px);
